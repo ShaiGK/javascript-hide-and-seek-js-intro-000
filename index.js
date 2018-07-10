@@ -18,10 +18,10 @@ function increaseRankBy (n) {
 
 function deepestChild () {
   var children = document.getElementById('grand-node')
-  var childrens = children[0].children
+  var childrens = children.children[0]
   while (childrens) {
     children = childrens
-    childrens = children.children
+    childrens = children.children[0]
   }
   return children
 }
