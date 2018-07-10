@@ -15,3 +15,9 @@ function increaseRankBy (n) {
     }
   }
 }
+
+function deepestChild (group) {
+  if (group.children) {
+    
+  }
+}
